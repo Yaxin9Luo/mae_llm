@@ -1,0 +1,12 @@
+torch>=1.7.0
+torchvision>=0.8.0
+timm>=0.3.2
+datasets
+numpy==2.1.1
+pillow==10.4.0
+transformers==4.44.2
+timm==0.3.2
+tensorboard
+tokenizers==0.19.1
+torch==2.4.1
+torchvision==0.19.1

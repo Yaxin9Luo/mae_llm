@@ -1,0 +1,11 @@
+python main_pretrain.py \
+    --batch_size 32 \
+    --epochs 400 \
+    --accum_iter 1 \
+    --norm_pix_loss \
+    --model mae_vit_large_patch16 \
+    --mask_ratio 0.75 \
+    --blr 1.5e-4 --weight_decay 0.05 \
+    --data_path /root/autodl-tmp/data \
+    --output_dir ./results/mae_roberta_llm_pretrain_output_dir \
+    --log_dir ./results/log_dir 

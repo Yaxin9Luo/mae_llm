@@ -1,0 +1,13 @@
+python main_finetune.py \
+    --batch_size 32 \
+    --epochs 200 \
+    --accum_iter 1 \
+    --input_size 224 \
+    --drop_path 0.1 \
+    --clip_grad 1.0 \
+    --weight_decay 0.05 \
+    --output_dir ./mbzuai_results/cifar10_init_LLM_classifier_random_label \
+    --log_dir ./results/log_dir \
+    --data_path /root/autodl-tmp/data \
+    --nb_classes 10 \
+    --dist_eval \
